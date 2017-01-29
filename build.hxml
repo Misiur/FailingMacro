@@ -1,0 +1,11 @@
+-cp src
+-cp lib
+# -D fluent_debug
+# -D fluent_dynamic_warning
+# -D fluent_dynamic
+-main Main
+-debug
+# -dce full
+-dce no
+-js bin/debug/app.js
+# -cpp bin/cpp
